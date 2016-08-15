@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv);
         tv.setBackgroundColor(Color.parseColor("#ffffff"));
-        tv.setText("2016");
+        tv.setText("里约 2016");
     }
 
 }
