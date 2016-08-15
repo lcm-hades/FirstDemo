@@ -1,8 +1,5 @@
 package com.demo.hades.firstdemo;
 
-import android.graphics.Canvas;
-import android.graphics.ColorFilter;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -39,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 return 0;
             }
         });
-        tv.setText("里约 2016");
+        tv.setText("2016");
     }
 
 }
