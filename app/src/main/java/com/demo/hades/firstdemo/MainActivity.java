@@ -13,9 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        tv = (TextView) findViewById(R.id.tv);
-//        tv.setBackgroundColor(Color.parseColor("#ffffff"));
-//        tv.setText("2016");
+        tv = (TextView) findViewById(R.id.tv);
+        tv.setText("里约 2016");
     }
 
 }
